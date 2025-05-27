@@ -1,0 +1,20 @@
+QUESTION 1
+INPUTS
+employees: list of tuples (employee_name, location)
+locations: list of location names
+capacity: int (minimum required employees per location)
+hoursWorked : Int
+lawLabourHours : Int
+
+
+PROCESS
+> Create a function for busyperiods which passed parameter list of employees, list of location and capacity
+> Iterate through location then create another loop for employees then assign location by its employee
+> Create a condition for employee and capacity. If the employee is less than the capacity we will need more employees else emplyees are enough
+> Create another function which passes parameters hoursWorked,salary and labourHoursLaw
+> If hoursWorked is greater than labourHoursLaw, then we calculate the exceedingHours by subtracting labourHoursLaw from hoursWorked
+> To increase employee satisfaction we multiply the exceedingHours with the salary divided by 100
+> Total salary would be the satisfaction salary added to the original salary
+
+OUTPUT
+Total salary : Int
