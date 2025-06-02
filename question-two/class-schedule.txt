@@ -1,16 +1,26 @@
-1. INPUT
+INPUT
     Classes: name, required facility, preferred time slots
     Teachers: name, available time slots, max hours
     Students: name, class preferences
     Classrooms: name, facilities, available time slots
 
-2. PROCESS
-    For each class:
-    Find an available classroom with needed facility.
-    Assign an available teacher who is not overworked.
-    Check if that time doesn’t conflict with teacher/student.
-    Avoid overlapping assignments.
-    Track assignments and update availability.
-
-3. OUTPUT
+OUTPUT
     Schedule list: class name, time slot, classroom, teacher, and enrolled students.
+
+PROCESS
+1. For each class, list the required facility and preferred time slots.
+
+2. For each classroom, if the classroom has the required facility and is available at a preferred time, this classroom and time slot will be available for the class.
+
+3. For each teacher, if the teacher is available at the selected time and has not exceeded their maximum teaching hours, this teacher attends the class.
+
+4. For each student interested in the class, if the student is free at the chosen time, the student should be able to enroll.
+
+5. If any teacher, student, or classroom is already assigned at the selected time, if not to the next available option.
+
+6. Enroll the available students to the classroom, teacher, and time slot .
+
+7. Update the availability for the classroom, teacher, and students after each assignment.
+
+8. Repeat for all classes until all possible assignments are complete.
+
