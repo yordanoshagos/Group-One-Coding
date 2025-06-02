@@ -1,0 +1,28 @@
+QUESTION 1
+### INPUTS
+employees: list of tuples (employee_name, location)
+locations: list of location names
+capacity: int (minimum required employees per location)
+hoursWorked : Int
+lawLabourHours : Int
+
+### OUTPUT
+Total salary added with the satisfaction salary : Int
+
+
+### PROCESS
+1. List all the employees and their assigned locations, a list of required locations, the minimum number of employees needed per location, each employee’s total hours worked, and the legal maximum work hours.
+
+2. For each location, which employees with their work location. if the number of employees meets or falls below the required minimum, add employees.
+
+3. If the employee count is below the required minimum and note that additional employees are needed for those locations, identify locations  .
+
+4. For each employee, compare their total hours worked to the legal maximum work hours.
+
+5. If an employee’s total hours worked exceeds the legal maximum, calculate how many hours exceed the limit by subtracting the total hours worked from the legal maximum.
+
+6. If employees are with excess hours, do additional satisfaction amount by multiplying the extra hours by a fraction of their salary.
+
+7. For each employee, add this satisfaction amount to their original salary.
+
+8. Sum the adjusted salaries for all employees to obtain the overall total salary, including all satisfaction amounts.
