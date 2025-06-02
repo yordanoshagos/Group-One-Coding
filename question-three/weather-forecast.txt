@@ -1,0 +1,26 @@
+Input:
+A city name
+A temperature value
+A humidity value
+A wind speed value
+
+Output:
+An updated data structure containing weather information for each city, where each city is associated with its temperature, humidity, and wind speed.
+
+Process:
+
+1. create a hashmap for storing weather information for cities.
+
+2. For each set of weather details
+
+3. Extract the city name, temperature, humidity, and wind speed. 
+
+4. In the data structure, locate the entry for the given city name. 
+
+5. If the city entry exists, Update the temperature, humidity, and wind speed values for that city. 
+
+6. If the city entry does not exist Create a new entry with the city name and assign the temperature, humidity, and wind speed values.
+
+7. Repeat step 3 for all provided city weather details.
+
+8. The hashmap now contains up-to-date weather data for each processed city.
