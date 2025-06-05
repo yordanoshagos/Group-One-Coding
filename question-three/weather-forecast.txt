@@ -9,18 +9,12 @@ An updated data structure containing weather information for each city, where ea
 
 Process:
 
-1. create a hashmap for storing weather information for cities.
+1. Create a hashmap for the weather report of different cities.
 
-2. For each set of weather details
+2. For every weather report, there is the city’s name, temperature, humidity, and wind speed.
 
-3. Extract the city name, temperature, humidity, and wind speed. 
+3. If the city is already in the hashmap,  write the new one's weather details in the hashmap.
 
-4. In the data structure, locate the entry for the given city name. 
+4. Repeat step 3  for every city’s weather report.
 
-5. If the city entry exists, Update the temperature, humidity, and wind speed values for that city. 
-
-6. If the city entry does not exist Create a new entry with the city name and assign the temperature, humidity, and wind speed values.
-
-7. Repeat step 3 for all provided city weather details.
-
-8. The hashmap now contains up-to-date weather data for each processed city.
+5. Then the hashmap will show the weather for every city processed.
